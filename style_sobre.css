@@ -1,0 +1,128 @@
+body{
+    /*rgb(241, 239, 255)*/
+    background-color: whitesmoke;
+    color:rgb(75, 75, 75);
+}
+
+html{
+    width: 100%;
+}
+/*color: #04D350;*/
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 32px;
+    color:rgb(75, 75, 75);
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 20px;
+    color:rgb(75, 75, 75);
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    height: 300px;
+}
+
+.conteudo {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+
+.cont_um{
+    width: 45%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 2%;
+    float: left;
+}
+
+.cont_um img{
+    float: left;
+    padding-right: 1%;
+}
+
+.cont_um li{
+    margin-top: 8px;
+}
+
+.cont_um span{
+    color: rgb(75, 75, 75);
+    font-weight: 700;
+}
+
+.text_um{
+    padding-top: 20%;
+}
+
+
+
+
+.cont_dois{
+    width: 55%;
+    height: auto;
+    margin-top: 6%;
+    padding-left: 2%;
+    float: right;
+}
+
+.cont_dois img{
+    float: left;
+    height: 215px;
+    padding-right: 2%;
+}
+
+
+.cont_dois li{
+    margin-top: 8px;
+}
+
+.cont_dois span{
+    color: rgb(75, 75, 75);
+    font-weight: 700;
+}
+
+.text_dois{
+    padding-top: 5%;
+}
+
+
+.redes{
+    width: 28%;
+    height: 35%;
+    margin-left:40%;
+    margin-top: 4%;
+}
+
+.redes img{
+    padding-top: 2%;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.redes h3{
+    padding-left: 25%;
+}
+
+.redes a:hover{
+    opacity: 1;
+}
+
+.redes a{
+    opacity: 0.6;
+}
+
+
+
