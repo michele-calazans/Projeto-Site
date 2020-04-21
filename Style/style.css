@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header .container{
+  min-height: 70px;
+}
+
+.header{
+  background-color: #232323;
+  width: 100%;
+  height: 100px;
+  border-bottom: orange 5px solid;
+}
+
+.header span{
+  color: orange;
+}
+.nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul {
+  margin: 0 auto;
+  padding: 22px;
+}
+
+.nav {
+  float: right;
+}
+
+.titulo {
+  float: left;
+  color: white;
+  margin: auto;
+  padding: 12px;
+}
+
+
+.showcase{
+  text-align: center;
+  min-height: 400px;
+  background-image: url("../imgs/team.png");
+  color:white;
+}
+
+
+.showcase h1{
+  margin: 0;
+  padding-top: 80px;
+  font-size: 55px;
+}
+
+.showcase p{
+  font-size: 20px;
+}
+
+
+.news{
+  width: 100%;
+  height: 100px;
+  background: #232323;
+}
+
+.news h1{
+  float: left;
+  color: #FFF;
+}
+
+.news form{
+  margin-top: 37px;
+  float: right;
+}
+
+.news input{
+  height: 25px;
+  width: 250px;
+}
+
+.enviar{
+  height: 31px;
+  border: none;
+  color: #FFF;
+  background: #e84a2b;
+}
+
+
+.valores{
+  text-align: center;
+}
+
+.valores ul{
+  display: flex;
+  list-style: none;
+}
+
+.valores img{
+  width: 90px;
+}
+
+
+.footer{
+  text-align: center;
+  background-color: #e84a2b;
+  width: 100%;
+  height: 100px;
+}
+
+.footer p{
+  color: #FFF;
+  padding-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
